@@ -1,0 +1,32 @@
+<%= form_with(model: registro_doaco) do |form| %>
+  <% if registro_doaco.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(registro_doaco.errors.count, "error") %> prohibited this registro_doaco from being saved:</h2>
+
+      <ul>
+        <% registro_doaco.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :donationID, style: "display: block" %>
+    <%= form.number_field :donationID %>
+  </div>
+
+  <div>
+    <%= form.label :customerID, style: "display: block" %>
+    <%= form.number_field :customerID %>
+  </div>
+
+  <div>
+    <%= form.label :donation_date, style: "display: block" %>
+    <%= form.date_field :donation_date %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

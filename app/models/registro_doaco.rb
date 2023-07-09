@@ -1,0 +1,2 @@
+class RegistroDoaco < ApplicationRecord
+end

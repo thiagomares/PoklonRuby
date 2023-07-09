@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Enderecousuarios</h1>
+
+<div id="enderecousuarios">
+  <% @enderecousuarios.each do |enderecousuario| %>
+    <%= render enderecousuario %>
+    <p>
+      <%= link_to "Show this enderecousuario", enderecousuario %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New enderecousuario", new_enderecousuario_path %>

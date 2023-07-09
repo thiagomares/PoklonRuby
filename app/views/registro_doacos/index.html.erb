@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Registro doacos</h1>
+
+<div id="registro_doacos">
+  <% @registro_doacos.each do |registro_doaco| %>
+    <%= render registro_doaco %>
+    <p>
+      <%= link_to "Show this registro doaco", registro_doaco %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New registro doaco", new_registro_doaco_path %>

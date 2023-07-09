@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @registro_doaco %>
+
+<div>
+  <%= link_to "Edit this registro doaco", edit_registro_doaco_path(@registro_doaco) %> |
+  <%= link_to "Back to registro doacos", registro_doacos_path %>
+
+  <%= button_to "Destroy this registro doaco", @registro_doaco, method: :delete %>
+</div>

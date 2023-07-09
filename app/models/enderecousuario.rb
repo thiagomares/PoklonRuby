@@ -1,0 +1,2 @@
+class Enderecousuario < ApplicationRecord
+end
