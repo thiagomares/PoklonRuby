@@ -1,16 +1,34 @@
 .textos{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    padding-left: 30px;
+    width: 200px;
+    float: left;
+    background-color: rgb(241, 236, 185);
 }
-body{
+.cabecalho{
     background-color: rgb(241, 236, 185);
     padding: 10px;
-    border: 10px;
-    border-color: blac;
+    border: 1px;
+    border-color: black;
+    border-style: none;
+    padding-top: 20px;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
 }
 
-div{
-    border: 1px;
-    border-style: solid;
-    padding: 10px;
+body{
+    background-color: rgb(240, 237, 208);
+}
+.texto_ruby{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: right;
+    width: 600px;
+}
+.Data{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    width: 100px;
 }
