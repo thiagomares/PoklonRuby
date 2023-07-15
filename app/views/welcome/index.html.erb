@@ -12,5 +12,18 @@
     <h1 class="texto_ruby"><%= "a #{'vanderlucia'.reverse} é a melhor do mundo"%></h1>
     <p class="Data"><%= Date.today.strftime('%d/%m/%Y') %></p>
     </div>
+
+    <!--Criando nossos helpers-->
+    <ul>
+        <li>
+        <a href="/usuarios">usuarios</a>
+        <li>
+        <%= link_to('Cadastro', "/usuarios") %>
+        </li>
+        </li>
+        <!-- carregando imagens para o ruby -->
+    </ul>
+    <% image_tag("https://www.pngegg.com/pt/png-sjpes", width: 25, height: 25)%>
+    <%# <p><%= usuarios.customer_name %>
 </body>
 </html>
