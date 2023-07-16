@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'new_welcome/index'
   get 'welcome/index'
   resources :usuarios
   resources :enderecousuarios
