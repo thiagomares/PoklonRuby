@@ -4,6 +4,10 @@ module WelcomeHelper
     end
 
     def return_date
+        valor = 22
+        puts valor
         return get_date(Date.today)
     end
 end
+
+
