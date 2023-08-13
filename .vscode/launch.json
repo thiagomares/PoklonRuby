@@ -5,20 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "rdbg",
-            "name": "Debug current file with rdbg",
+            "name": "Rails server",
+            "type": "Ruby",
             "request": "launch",
-            "script": "${workspaceRoot}/bin/rails",
-            "useBundler": true,
+            "program": "${workspaceRoot}/bin/rails",
             "args": [
                 "server"
             ]
-            
-        },
-        {
-            "type": "rdbg",
-            "name": "Attach with rdbg",
-            "request": "attach"
         }
     ]
 }
