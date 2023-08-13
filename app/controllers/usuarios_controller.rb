@@ -52,7 +52,7 @@ class UsuariosController < ApplicationController
     @usuario.destroy
 
     respond_to do |format|
-      format.html { redirect_to usuarios_url, notice: "Usuario was successfully destroyed." }
+      format.html { redirect_to usuarios_url, notice: "Usuario foi removido." }
       format.json { head :no_content }
     end
   end
